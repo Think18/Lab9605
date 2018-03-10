@@ -1,0 +1,177 @@
+{
+  "id": "d42752ca-fd79-41af-8ea9-1aff434bf143",
+  "name": "movie_name",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Samhaara",
+      "synonyms": [
+        "samhaara"
+      ]
+    },
+    {
+      "value": "Tiger zinda hai",
+      "synonyms": [
+        "tiger zinda hai"
+      ]
+    },
+    {
+      "value": "Aiyaary",
+      "synonyms": [
+        "aiyaary"
+      ]
+    },
+    {
+      "value": "Bahubali",
+      "synonyms": [
+        "bahubali"
+      ]
+    },
+    {
+      "value": "Padmavat",
+      "synonyms": [
+        "padmavat"
+      ]
+    },
+    {
+      "value": "1921",
+      "synonyms": [
+        "1921"
+      ]
+    },
+    {
+      "value": "rajaratha",
+      "synonyms": [
+        "rajaratha"
+      ]
+    },
+    {
+      "value": "Black Panther",
+      "synonyms": [
+        "black panther"
+      ]
+    },
+    {
+      "value": "12 strong",
+      "synonyms": [
+        "12 strong"
+      ]
+    },
+    {
+      "value": "Fifty Shades Freed",
+      "synonyms": [
+        "fifty shades of grey"
+      ]
+    },
+    {
+      "value": "Avengers",
+      "synonyms": [
+        "avengers"
+      ]
+    },
+    {
+      "value": "Batman",
+      "synonyms": [
+        "batman"
+      ]
+    },
+    {
+      "value": "Dark Knight Rises",
+      "synonyms": [
+        "dark knight rises"
+      ]
+    },
+    {
+      "value": "Justice League",
+      "synonyms": [
+        "justice league"
+      ]
+    },
+    {
+      "value": "Maze Runner",
+      "synonyms": [
+        "maze runner"
+      ]
+    },
+    {
+      "value": "Star Wars",
+      "synonyms": [
+        "star wars"
+      ]
+    },
+    {
+      "value": "Jumanji",
+      "synonyms": [
+        "jumanzi"
+      ]
+    },
+    {
+      "value": "Deadpool 2",
+      "synonyms": [
+        "deadpool 2"
+      ]
+    },
+    {
+      "value": "Antman",
+      "synonyms": [
+        "antman"
+      ]
+    },
+    {
+      "value": "Pacific rims",
+      "synonyms": [
+        "pacific rims"
+      ]
+    },
+    {
+      "value": "Tomb Raider",
+      "synonyms": [
+        "Tomb Raider"
+      ]
+    },
+    {
+      "value": "Padman",
+      "synonyms": [
+        "Padman"
+      ]
+    },
+    {
+      "value": "The Shape of Water",
+      "synonyms": [
+        "The Shape of water"
+      ]
+    },
+    {
+      "value": "Coco",
+      "synonyms": [
+        "coco"
+      ]
+    },
+    {
+      "value": "Death Wish",
+      "synonyms": [
+        "Death Wish"
+      ]
+    },
+    {
+      "value": "Red Sparrow",
+      "synonyms": [
+        "Red Sparrow"
+      ]
+    },
+    {
+      "value": "The Greatest Showman",
+      "synonyms": [
+        "The Greatest Showman"
+      ]
+    },
+    {
+      "value": "Mission impossible",
+      "synonyms": [
+        "mission impossible"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

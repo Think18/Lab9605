@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!-- A CardView that contains a TextView -->
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01579B"
+    >
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="#1A237E"
+    ></android.support.v7.widget.Toolbar>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="MyBoxOffice Tickets"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:id="@+id/History"
+        android:layout_marginTop="5dp"
+        />
+    <ListView
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:textColor="@color/black"
+        android:background="#01579B"
+       ></ListView>
+
+
+
+</RelativeLayout>
+
+
+
+

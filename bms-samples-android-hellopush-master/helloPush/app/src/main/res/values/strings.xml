@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyBoxOffice</string>
+    <string name="action_settings">Settings</string>
+    <string name="RegistrationButton">Log In</string>
+    <string name="hello_world">Hello push!</string>
+    <string name="Registering">Logging in...Please Wait</string>
+    <string name="title_activity_storing_data">StoringData</string>
+    <string name="title_activity_store_data">storeData</string>
+    <string name="title_activity_second">second</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

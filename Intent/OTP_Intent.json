@@ -1,0 +1,65 @@
+{
+  "id": "f543890e-8b39-49f9-9690-1812d00c2057",
+  "name": "OTP_Intent",
+  "auto": true,
+  "contexts": [
+    "ticketnext"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ticket2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a5fc5ba6-d0f8-4720-9f38-9280de2c402a",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "otp",
+          "value": "$otp",
+          "prompts": [
+            "again"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520508923,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "4d203f1d-83d2-4402-9ab8-03d0dcac5f58",
+      "data": [
+        {
+          "text": "12",
+          "alias": "otp",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1520508923,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}
