@@ -1,5 +1,5 @@
 {
-  "name": "get-started-node",
+  "name": "movie-ticket-node",
   "main": "server.js",
   "description": "An introduction to developing Node.js apps on the Bluemix platform",
   "version": "0.1.1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/IBM-Bluemix/get-started-node"
+    "url": "https://github.com/Think18/Lab9605/tree/master/movie-ticket-node"
   },
   "dependencies": {
     "actions-on-google": "^1.0.0",
