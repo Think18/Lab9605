@@ -1,4 +1,4 @@
-package com.ibm.hellopush;
+package com.movie.office;
 
 import android.util.Log;
 

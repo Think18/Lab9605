@@ -1,10 +1,8 @@
-package com.ibm.hellopush;
+package com.movie.office;
 
 import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
-import android.widget.Toolbar;
 
 import java.util.List;
 
@@ -15,11 +13,11 @@ public class BookingHistoryActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_booking_history);
+        setContentView(com.movie.office.R.layout.activity_booking_history);
        // Toolbar toolbar=(Toolbar)findViewById(R.id.toolbar);
 
 
-        listView = findViewById(R.id.details);
+        listView = findViewById(com.movie.office.R.id.details);
         populateListView();
     }
 

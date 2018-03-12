@@ -1,4 +1,4 @@
-package com.ibm.hellopush;
+package com.movie.office;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

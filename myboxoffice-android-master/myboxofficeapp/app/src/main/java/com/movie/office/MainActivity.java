@@ -1,4 +1,4 @@
-package com.ibm.hellopush;
+package com.movie.office;
 
 /**
  * Copyright 2015, 2016 IBM Corp. All Rights Reserved.
@@ -22,16 +22,12 @@ import android.content.DialogInterface;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Movie;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
 import com.ibm.mobilefirstplatform.clientsdk.android.core.api.BMSClient;
 import com.ibm.mobilefirstplatform.clientsdk.android.push.api.MFPPush;
 import com.ibm.mobilefirstplatform.clientsdk.android.push.api.MFPPushException;
@@ -39,20 +35,12 @@ import com.ibm.mobilefirstplatform.clientsdk.android.push.api.MFPPushResponseLis
 import com.ibm.mobilefirstplatform.clientsdk.android.push.api.MFPPushNotificationListener;
 import com.ibm.mobilefirstplatform.clientsdk.android.push.api.MFPSimplePushNotification;
 
-import com.worklight.jsonstore.api.JSONStoreAddOptions;
-import com.worklight.jsonstore.api.JSONStoreInitOptions;
 import com.worklight.jsonstore.api.JSONStoreCollection;
-import com.worklight.jsonstore.api.WLJSONStore;
-import com.worklight.wlclient.api.WLClient;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.w3c.dom.Text;
 
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 public class MainActivity extends Activity {
@@ -87,7 +75,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(com.movie.office.R.layout.activity_main);
 
 
 
@@ -257,15 +245,15 @@ public class MainActivity extends Activity {
 
 
         // Make register button unclickable during registration and show registering text
-        TextView userId = findViewById(R.id.user);
+        TextView userId = findViewById(com.movie.office.R.id.user);
         MovieManager.getInstance().setUserId(userId.getText().toString());
         sp = getSharedPreferences(MovieManager.getInstance().getUserId()+PREFS_MOVIE_MASTER, Context.MODE_PRIVATE);
         loadFromCache();
-        TextView buttonText = (TextView) findViewById(R.id.button_text);
+        TextView buttonText = (TextView) findViewById(com.movie.office.R.id.button_text);
      //   buttonText.setClickable(false);
 
-        TextView responseText = (TextView) findViewById(R.id.response_text);
-        buttonText.setText(R.string.Registering);
+        TextView responseText = (TextView) findViewById(com.movie.office.R.id.response_text);
+        buttonText.setText(com.movie.office.R.string.Registering);
         Log.i(TAG, "Registering for notifications");
 
         // Creates response listener to handle the response when a device is registered.
@@ -350,14 +338,14 @@ public class MainActivity extends Activity {
      * @param wasSuccessful Boolean dictates top 2 text view texts
      */
     private void setStatus(final String messageText, boolean wasSuccessful){
-        final TextView responseText = (TextView) findViewById(R.id.response_text);
+        final TextView responseText = (TextView) findViewById(com.movie.office.R.id.response_text);
       //  final TextView topText = (TextView) findViewById(R.id.top_text);
-        final TextView bottomText = (TextView) findViewById(R.id.bottom_text);
-        final TextView buttonText = (TextView) findViewById(R.id.button_text);
-        final TextView movieAssistant = (TextView) findViewById(R.id.top_text1);
-        final TextView user_ID = (TextView) findViewById(R.id.user);
+        final TextView bottomText = (TextView) findViewById(com.movie.office.R.id.bottom_text);
+        final TextView buttonText = (TextView) findViewById(com.movie.office.R.id.button_text);
+        final TextView movieAssistant = (TextView) findViewById(com.movie.office.R.id.top_text1);
+        final TextView user_ID = (TextView) findViewById(com.movie.office.R.id.user);
       //  final Button hist = (Button) findViewById(R.id.Click);
-        final ImageView img = (ImageView) findViewById(R.id.imageView1);
+        final ImageView img = (ImageView) findViewById(com.movie.office.R.id.imageView1);
 
         final String topStatus = wasSuccessful ? "Welcome " : "Failed!";
         final String bottomStatus = wasSuccessful ? " " : " ";

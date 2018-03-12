@@ -1,4 +1,4 @@
-package com.ibm.hellopush;
+package com.movie.office;
 
 import android.content.Context;
 import android.view.View;
@@ -43,11 +43,11 @@ public class MovieAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         MovieItems movieItems = mProductList.get(position);
-        View v =View.inflate(mcontext,R.layout.movie_content,null);
-        TextView id=(TextView)v.findViewById(R.id.second);
-        TextView id1=(TextView)v.findViewById(R.id.Ticket);
-        TextView id2=(TextView)v.findViewById(R.id.Date);
-        ImageView id3=(ImageView)v.findViewById(R.id.QrCode);
+        View v =View.inflate(mcontext, com.movie.office.R.layout.movie_content,null);
+        TextView id=(TextView)v.findViewById(com.movie.office.R.id.second);
+        TextView id1=(TextView)v.findViewById(com.movie.office.R.id.Ticket);
+        TextView id2=(TextView)v.findViewById(com.movie.office.R.id.Date);
+        ImageView id3=(ImageView)v.findViewById(com.movie.office.R.id.QrCode);
 
         StringBuilder movieTicket = new StringBuilder();
         StringBuilder movieTicket1 = new StringBuilder();
