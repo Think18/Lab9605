@@ -1,0 +1,31 @@
+{
+  "id": "5e82d0b4-f3d1-41ba-929f-8c8ef8d91e5a",
+  "name": "Default Fallback Intent",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I'm sorry this movie is not available at this moment. You can choose from Black Panther, The shape of Water, Death Wish, Coco, The Greatest Showman"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521014629,
+  "fallbackIntent": true,
+  "events": [],
+  "userSays": [],
+  "followUpIntents": [],
+  "templates": []
+}

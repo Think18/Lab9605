@@ -24,7 +24,7 @@ app.post("/api/visitors/", function (request, response) {
     convid=request.body.sessionId;
     var body = JSON.stringify(request.body);
     var jsonobject = request.body;
-    var userName = jsonobject.result.parameters.movie_name ;
+    var userName = jsonobject.result.parameters.movie_name ;
     var number = jsonobject.result.parameters.number;
     var date = jsonobject.result.parameters.date;
     var userid = jsonobject.result.parameters.str; 
@@ -59,7 +59,7 @@ app.post("/api/visitors/", function (request, response) {
         if (err) {
           return console.log('[mydb.insert] ', err.message);
         }
-        googleapp.ask('Hey ! tell me your OTP');
+        googleapp.ask('I sent a One time password to your mobile. Please read out the One time password');
       }); 
 
      
@@ -121,12 +121,12 @@ app.post("/api/visitors/", function (request, response) {
           myPushNotifications.send(notificationExample, function (error, response1, body) {
             });
         
-          googleapp.tell("I've booked "+ ticket + ' movie tickets of ' +movie+ ' for '+dates+'. Enjoy ');
+          googleapp.tell("I have booked "+ ticket + ' movie tickets for ' +movie+ ' on '+dates+'. Have a good day.');
           
         }
         else{
          
-          googleapp.tell('Error ! you entered wrong otp');
+          googleapp.tell('Sorry, the password you provided is incorrect. Please start over again.');
         }
         
         //odb insert
@@ -225,8 +225,3 @@ app.get("/api/visitors", function (request, response) {
     }
   });
 });
-
-
-
-
-
